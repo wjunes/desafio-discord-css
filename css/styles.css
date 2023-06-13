@@ -1,0 +1,179 @@
+
+body{
+    margin: 0;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(../img/Header-Background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.logo{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 124px;
+    padding: 8px;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 75%;
+    margin-top: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    margin: .25rem .5rem;
+    font-family: open sans;
+    font-weight: 500;
+  
+}
+
+.nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+ul .login{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #FFF;
+    border-radius: 8px;
+}
+
+ul .login a{
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.btn-login{
+    margin-right: 2rem;
+    height: 20px;
+    font-family: open sans;
+    font-weight: 600;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 8px;
+    border: none;   
+    
+}
+
+.btn-login a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin-top: auto;
+
+}
+
+.text-content h1{
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 800;
+    font-family: 'luckiest guy', cursive;
+    margin: .75rem;
+}
+
+.text-content p{
+    font-family: open sans;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: .75rem;
+
+}
+
+
+.link-content{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 80px;
+    padding-bottom: 0;
+    
+}
+
+.link-content .download{
+    background-color: #FFF;
+    text-align: center;
+    border: none;
+    border-radius: 18px;
+    height: 40px;
+    max-width: 330px;
+}
+
+.link-content .download img{
+    height: 15px;
+    width: 25px;
+}
+
+.link-content .download a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.link-content .open{
+    background-color: #313338;
+    height: 40px;
+    max-width: 330px;
+    border: none;
+    border-radius: 18px;
+   
+
+}
+
+.link-content .open a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+}
+
+ 

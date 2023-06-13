@@ -1,0 +1,143 @@
+
+
+@media  screen and (max-width: 960px) {
+
+   body p{
+      font-size: 3vw;
+   }
+
+    .link-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-content h1 {
+        font-size: 6vw;
+    }
+
+    .text-content p{
+        font-size: 3vw;
+        color: orangered;
+    }
+
+    .header .logo  {
+        display: none;
+    }
+
+    .header .btn-login {
+        display: none;
+    }
+
+    .header .nav{
+        max-width: 80%;
+    }
+
+    .header .nav  a{
+        font-size: 2vw;
+        margin: 5px;
+    }
+
+    .link-content .download{
+        margin-bottom: 10px;
+    }
+
+             
+
+    .content-1 .container-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-1 .container-1 .image-content img{
+        max-width: 80vw;
+    }
+
+    .content-1 .container-1 .text-container h1{
+        font-size: 6vw;
+    }
+
+    .content-1 .container-1 .text-container p{
+        font-size: 3vw;
+    }
+
+                    
+
+    .content-2 .container-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-2 .container-2 .image-content-2 img{
+        max-width: 80vw;
+    }
+
+    .content-2 .container-2 .text-container-2 h1{
+        font-size: 6vw;
+    }
+
+    .content-2 .container-2 .text-container-2 p{
+        font-size: 3vw;
+    }   
+    
+
+    .content-3 .container-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-3 .container-3 .image-content-3 img{
+        max-width: 80vw;
+    }
+
+    .content-3 .container-3 .text-container-3 h1{
+        font-size: 6vw;
+    }
+
+    .content-3 .container-3 .text-container-3 p{
+        font-size: 3vw;
+    }     
+    
+                    
+
+    .content-4 .container-4{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-4 .container-4 .image-content-4 img{
+        max-width: 80vw;
+    }
+
+    .content-4 .container-4 .text-container-4 h1{
+        font-size: 6vw;
+    }
+
+    .content-4 .container-4 .text-container-4 p{
+        font-size: 3vw;
+    } 
+
+
+    
+    footer .footer .discord img{
+        max-width: 20vw;
+    }
+
+    footer .footer .social{
+        max-width: 35vw;
+    }
+
+    footer .footer .social a{
+        max-width: 6vw;
+    }
+        
+    }
+
+    footer .footer .social a img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .footer .social .registri{
+        max-width: 11vw;
+    }
+
+    footer .footer .social .registri a{
+        max-width: 10vw;
+    }
+}

@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    background-color: rgb(247, 244, 244);
+}
+
+.content-1{
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
+    justify-content: center;
+}
+
+.container-1{
+    display: grid;
+    margin: 0;
+    max-width: 90;
+    gap: 1vw;
+    padding: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr ;
+    grid-template-areas: " pic pic pic pic pic pic pic free txt txt txt txt";
+    
+}
+
+.content-2{
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
+    justify-content: center;
+}
+
+.content-3{
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
+    justify-content: center;
+}
+
+.content-4{
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
+    justify-content: center;
+}
+
+
+.image-content{
+    display: flex;
+    grid-area: pic;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.image-content img{
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    grid-area: txt;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+
+.container-2{
+    display: grid;
+    margin: 0;
+    max-width: 90;
+    gap: 1vw;
+    padding: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr ;
+    grid-template-areas: "text text text text free img img img img img img img ";
+    margin-top: 1.5rem;
+}
+
+.image-content-2{
+    display: flex;
+    grid-area:img ;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5rem;
+
+}
+
+.image-content-2 img{
+    max-width: 100%;
+}
+
+.text-container-2{
+    display: flex;
+    flex-direction: column;
+    grid-area: text;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+
+.text-container h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'luckiest guy', cursive;
+    margin-bottom: 5px;
+}
+
+.text-container p{
+    font-family: open sans;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: .75rem;
+
+}
+
+.text-container-2 h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'luckiest guy', cursive;
+    margin-bottom: 5px;
+}
+
+.text-container-2 p{
+    font-family: open sans;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: .75rem;
+
+}
+
+.container-3{
+    display: grid;
+    margin: 0;
+    max-width: 90;
+    gap: 1vw;
+    padding: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr ;
+    grid-template-areas: " imag imag imag imag imag imag imag free text text text text  ";
+    margin-top: 1.5rem;
+}
+
+.image-content-3{
+    display: flex;
+    grid-area:imag ;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5rem;
+
+}
+
+.image-content-3 img{
+    max-width: 100%;
+}
+
+.text-container-3{
+    display: flex;
+    flex-direction: column;
+    grid-area: text;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.text-container-3 h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'luckiest guy', cursive;
+    margin-bottom: 5px;
+}
+
+.text-container-3 p{
+    font-family: open sans;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: .75rem;
+
+}
+
+.container-4{
+    display: grid;
+    margin: 0;
+    max-width: 90;
+    gap: 1vw;
+    padding: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px repeat(1, 1fr);
+    grid-template-areas: " texts texts texts texts texts texts texts texts texts texts texts texts "
+                          "image image image image image image image image image image image image";
+    margin-top: 1.5rem;
+}
+
+.text-container-4 h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'luckiest guy', cursive;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.text-container-4 p{
+    font-family: open sans;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+
+}
+
+.image-content-4{
+    display: flex;
+    grid-area:image ;
+    align-items: center;
+    flex-direction: column;
+    margin:.5rem;
+
+}
+
+.image-content-4 img{
+    max-width: 100%;
+}
+
+.text-container-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: texts;
+    margin: 0;
+    margin-top: 0;
+    text-align: center;
+}
